@@ -31,7 +31,7 @@
     background: var(--green-600);
     color: #fff;
     font: 600 1.5rem/1em 'Roboto', sans-serif;
-    margin-top: 4rem;
+    margin-top: 3rem;
 
     transition: filter 0.2s;
 
@@ -44,5 +44,9 @@
     position: absolute;
     right: 0;
     bottom: 0;
+
+    @media (max-width: 1080px) {
+      height: 60%
+    }
   }
 }
