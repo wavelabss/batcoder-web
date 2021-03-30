@@ -11,7 +11,7 @@ export function CallTheAction({ title, subtitle, textButton, imgPath}: CallTheAc
   return (
     <main className={styles.CTAContainer}>
       <h1>{title}</h1>
-      {subtitle && <h2>{subtitle}</h2>} 
+      {subtitle && <h2>{subtitle}</h2>}
       <button>{textButton}</button>
       {imgPath && <img src={imgPath} alt=""/>}
     </main>
