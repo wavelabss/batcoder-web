@@ -1,19 +1,14 @@
+import { ReactNode } from 'react'
 import styles from './styles.module.scss'
 
 interface CallTheActionProps {
-  title: string,
-  subtitle?: string,
-  textButton: string,
-  imgPath?: string,
+  children: ReactNode
 }
 
-export function CallTheAction({ title, subtitle, textButton, imgPath}: CallTheActionProps)  {
+export function CallTheAction({ children }: CallTheActionProps) {
   return (
     <main className={styles.CTAContainer}>
-      <h1>{title}</h1>
-      {subtitle && <h2>{subtitle}</h2>}
-      <button>{textButton}</button>
-      {imgPath && <img src={imgPath} alt=""/>}
+      {children}
     </main>
   )
 }

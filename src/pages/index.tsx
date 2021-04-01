@@ -8,12 +8,12 @@ export default function Home() {
         <meta name="description" content="Desafios de programação para desenvolvedores evoluirem suas habilidades."/>
         <title>BATcoder | Início</title>
       </Head>
-      <CallTheAction 
-        title="Desafios de programação para desenvolvedores evoluirem suas habilidades."
-        subtitle="Confira os desafios disponíveis na nossa plataforma."
-        textButton="Bora lá!"
-        imgPath="./images/programmer.svg"
-      />
+      <CallTheAction>
+        <h1>Desafios de programação para desenvolvedores evoluirem suas habilidades.</h1>
+        <h2>Confira os desafios disponíveis na nossa plataforma.</h2>
+        <button>Bora lá!</button>
+        <img src="./images/programmer.svg" alt="Programador"/>
+      </CallTheAction>
     </>
   )
 }
