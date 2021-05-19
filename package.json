@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "api": "json-server -p 3001 -w db.json"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.20.0",
