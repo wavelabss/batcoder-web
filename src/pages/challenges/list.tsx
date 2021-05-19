@@ -3,7 +3,7 @@ import { CardChallenges } from '../../components/CardChallenges'
 export default function ListChallenges() {
   return (
     <CardChallenges>
-      <img src="./images/creaters/ana.png" alt=""/>
+      <img src="https://i.imgur.com/rfD5Y3Y.png" alt=""/>
       <strong>Ana Laura</strong>
       <p>
         Estudante de ciencia da computação, apaixonada por fazer conexões e inspirar pessoas.<br />
