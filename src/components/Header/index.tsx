@@ -4,7 +4,7 @@ export function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <img src="./images/logo-white-green.svg" alt="BATcoder" title="BATcoder" />
+        <img src="/images/logo-white-green.svg" alt="BATcoder" title="BATcoder" />
         <nav>
           <a className={styles.active} href="#">Desafios</a>
           <a href="#">Comunidade</a>
