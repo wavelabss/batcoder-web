@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './styles.module.scss'
 
 export function Footer() {
@@ -5,12 +6,14 @@ export function Footer() {
     <footer className={styles.FooterSection}>
       <main>
         <div className={styles.FooterIcons}>
-          <a href=""><img src="/images/icons/github.svg" alt=""/></a>
-          <a href=""><img src="/images/icons/instagram.svg" alt=""/></a>
-          <a href=""><img src="/images/icons/linkedin.svg" alt=""/></a>
+          <a href="https://github.com/wavelabss" target="_blank" rel="noreferrer"><img src="/images/icons/github.svg" alt=""/></a>
+          <a href="https://www.instagram.com/_wavelabs/" target="_blank" rel="noreferrer"><img src="/images/icons/instagram.svg" alt=""/></a>
+          <a href="https://www.linkedin.com/company/wave-labs" target="_blank" rel="noreferrer"><img src="/images/icons/linkedin.svg" alt=""/></a>
         </div>
         <div className={styles.FooterLogo}>
-          <img src="/images/logo-black-white.svg" alt="BATcoder" title="BATcoder" />
+          <Link href="/">
+            <img src="/images/logo-black-white.svg" alt="BATcoder" title="BATcoder" />
+          </Link>
         </div>
       </main>
     </footer>
