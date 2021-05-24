@@ -1,13 +1,21 @@
+import Link from 'next/link'
+
 import styles from './styles.module.scss'
 
 export function Header() {
   return (
     <header className={styles.headerContainer}>
       <div className={styles.headerContent}>
-        <img src="/images/logo-white-green.svg" alt="BATcoder" title="BATcoder" />
+        <Link href="/">
+          <img src="/images/logo-white-green.svg" alt="BATcoder" title="BATcoder" />
+        </Link>
         <nav>
-          <a className={styles.active} href="#">Desafios</a>
-          <a href="#">Comunidade</a>
+          <Link href="/challenges">
+            <a className={styles.active}>Desafios</a>
+          </Link>
+          <Link href="/community">
+            <a>Comunidade</a>
+          </Link>
         </nav>
       </div>
     </header>
