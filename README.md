@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./.github/batcoder-dark.png">
+  <img src="./.github/BATcoder-dark.png">
 </p>
 <p align="center">
-  <img src="./.github/batcoder-light.png">
+  <img src="./.github/BATcoder-light.png">
 </p>
 
 <p align="center">Plataforma de desafios para devs evoluírem suas habilidades.</p>
