@@ -26,6 +26,8 @@
 - [X] Página com CTA dedicada a comunidade <a href="https://discord.gg/AHbF8BK">Wave labs</a>
 - [X] Criação de uma fake API para consumir dados via JSON
 
+## 🎨 Protótipo
+- [Clique aqui](https://www.figma.com/file/p1qp5U1v5bhggnSMBN5SqB/Projeto-batcoder?node-id=0%3A1) para acessar o protótipo desenvolvido no Figma.
 ## :hammer_and_wrench: Tecnologias
 
 - [Next.js](https://nextjs.org/);
@@ -38,7 +40,7 @@
 ### :computer: Requisitos
 
 - [Node.js](https://nodejs.org/en/);
-- [Yarn](https://yarnpkg.com/);
+- [Yarn](https://yarnpkg.com/).
 
 ### ⚙️ Como executar a aplicação
 
