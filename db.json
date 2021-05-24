@@ -2,6 +2,7 @@
   "challenges": [
     {
       "id": 1,
+      "slug": "calculadora-mobile",
       "title": "Calculador Mobile",
       "description": "Você sabia que a calculadora foi inventada em 1642 e passou por grandes mudanças pelo Blaise Pascal? Isso mesmo, Pascal! O matemático que teve como homenagem seu nome em uma linguagem de programação. Com base nisso, desenvolva uma calculadora que tenha as funções básicas (adição, subtração, multiplicação e divisão) e que seja capaz de trabalhar com números decimais.",
       "cover": "https://i.imgur.com/txEiZ71.png",
@@ -9,6 +10,7 @@
     },
     {
       "id": 2,
+      "slug": "notas-mobile",
       "title": "Notas Mobile",
       "description": "Quem nunca precisou anotar algo de última hora ou até mesmo montar um mural com base em suas anotações? Pensando nisso, cola junto e desenvolva um mural de anotações prático para que possa armazenar e remover lembretes de maneira dinâmica! Mas atenção, cuidado para não deixar seu mural confuso!",
       "cover": "https://i.imgur.com/5RdUfYx.png",
@@ -16,6 +18,7 @@
     },
     {
       "id": 3,
+      "slug": "calendario-mobile",
       "title": "Calendário Mobile",
       "description": "Já fez nosso desafio para o mural de anotações? Se não fez, clique aqui e não perca a oportunidade! Além de práticas anotações, precisamos também de nossas agendas para nos organizarmos, não é mesmo? Com base nessa necessidade, crie um calendário no qual seja possível adicionar compromissos/agendas e também definir horários. Além disso, é importante que tenhamos dinâmica para edição e remoção. Afinal, imprevistos acontecem, né?!",
       "cover": "https://i.imgur.com/QX0o7YU.png",
@@ -23,6 +26,7 @@
     },
     {
       "id": 4,
+      "slug": "music-player-web",
       "title": "Music Player Web",
       "description": "Serviços de streaming estão cada vez mais em alta, não é mesmo? Agora é hora de você ter seu próprio streaming de músicas e podcasts! Crie um player interativo capaz de carregar músicas e álbuns a fim de que possamos dar play/pause quando quisermos! Além disso, é importante que o comportamento da aplicação seja dinâmico com as imagens de cada álbum aparecendo conforme imagem.",
       "cover": "https://i.imgur.com/ZDpPF85.png",
@@ -30,6 +34,7 @@
     },
     {
       "id": 5,
+      "slug": "pomodoro-web",
       "title": "Pomodoro Web",
       "description": "",
       "cover": "https://i.imgur.com/M2OToFn.png",
@@ -37,7 +42,8 @@
     },
     {
       "id": 6,
-      "title": "Streaming Filme MobiWeble",
+      "slug": "streaming-filme-mobile",
+      "title": "Streaming Filme Web",
       "description": "",
       "cover": "https://i.imgur.com/7vg3zmW.png",
       "repository": ""
