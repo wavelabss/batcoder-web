@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Head from 'next/head'
 import Link from 'next/link'
 import { CardChallenges } from '../../components/CardChallenges'
 import { api } from '../../service/api'
@@ -16,19 +17,25 @@ export default function ListChallenges() {
   }, [])
 
   return (
-    <main className={styles.ListChallengesContainer}>
-      {
-        challenges.map(challenge => (
-      <CardChallenges marginBottom={32} key={challenge.id}>
-        <img src={challenge.cover} alt=""/>
-        <strong>{challenge.title}</strong>
-        <p>{challenge.description}</p>
-          <Link href={`/challenges/${challenge.slug}`}>
-            <button>Detalhes</button>
-          </Link>
-      </CardChallenges>
-        ))
-      }
-    </main>
+    <>
+      <Head>
+        <meta name="description" content="Desafios de programação para desenvolvedores evoluirem suas habilidades."/>
+        <title>BATcoder | Desafios</title>
+      </Head>
+      <main className={styles.ListChallengesContainer}>
+        {
+          challenges.map(challenge => (
+        <CardChallenges marginBottom={32} key={challenge.id}>
+          <img src={challenge.cover} alt=""/>
+          <strong>{challenge.title}</strong>
+          <p>{challenge.description}</p>
+            <Link href={`/challenges/${challenge.slug}`}>
+              <button>Detalhes</button>
+            </Link>
+        </CardChallenges>
+          ))
+        }
+      </main>
+    </>
   )
 }
