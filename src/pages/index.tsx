@@ -33,9 +33,9 @@ export default function Home() {
               Acredita que o segredo para mudar o mundo é ocupar lugares importatantes.
             </p>
             <div>
-              <a href=""><img src="./images/icons/github.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/instagram.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/linkedin.svg" alt=""/></a>
+              <a href="https://github.com/laureca" target="_blank" rel="noreferrer"><img src="./images/icons/github.svg" alt=""/></a>
+              <a href="https://www.instagram.com/laureca/" target="_blank" rel="noreferrer"><img src="./images/icons/instagram.svg" alt=""/></a>
+              <a href="https://www.linkedin.com/in/ana-laura-pereira-mariano-060b0b189/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
             </div>
           </CardCreaters>
           <CardCreaters>
@@ -49,9 +49,9 @@ export default function Home() {
               Fã incontrolável de Los Hermanos.
             </p>
             <div>
-              <a href=""><img src="./images/icons/github.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/instagram.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/linkedin.svg" alt=""/></a>
+              <a href="https://github.com/brunolaviso" target="_blank" rel="noreferrer"><img src="./images/icons/github.svg" alt=""/></a>
+              <a href="https://www.instagram.com/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/instagram.svg" alt=""/></a>
+              <a href="https://www.linkedin.com/in/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
             </div>
           </CardCreaters>
           <CardCreaters>
@@ -63,9 +63,9 @@ export default function Home() {
               É um fruto do suporte, mas que com força de vontade conseguiu alcançar um objetivo atrás do outro.
             </p>
             <div>
-              <a href=""><img src="./images/icons/github.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/instagram.svg" alt=""/></a>
-              <a href=""><img src="./images/icons/linkedin.svg" alt=""/></a>
+              <a href="https://github.com/ThiagoMoura183" target="_blank" rel="noreferrer"><img src="./images/icons/github.svg" alt=""/></a>
+              <a href="https://www.instagram.com/_thiagomoura7/" target="_blank" rel="noreferrer"><img src="./images/icons/instagram.svg" alt=""/></a>
+              <a href="https://www.linkedin.com/in/thiago-moura-28b572169/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
             </div>
           </CardCreaters>
         </div>
