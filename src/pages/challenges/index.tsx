@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import Link from 'next/link'
 import { CardChallenges } from '../../components/CardChallenges'
 import { api } from '../../service/api'
 import { IChallenge } from '../../shared/interfaces/challenge'
@@ -22,7 +23,9 @@ export default function ListChallenges() {
         <img src={challenge.cover} alt=""/>
         <strong>{challenge.title}</strong>
         <p>{challenge.description}</p>
-        <button>Detalhes</button>
+          <Link href={`/challenges/${challenge.slug}`}>
+            <button>Detalhes</button>
+          </Link>
       </CardChallenges>
         ))
       }
