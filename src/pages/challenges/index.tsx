@@ -28,7 +28,7 @@ export default function ListChallenges() {
         <CardChallenges marginBottom={32} key={challenge.id}>
           <img src={challenge.cover} alt=""/>
           <strong>{challenge.title}</strong>
-          <p>{challenge.description}</p>
+          <p>{challenge.shortDescription}</p>
             <Link href={`/challenges/${challenge.slug}`}>
               <button>Detalhes</button>
             </Link>

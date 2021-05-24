@@ -27,8 +27,8 @@ export default function DetailsChallenge(id: number) {
         <div className={styles.DetailsChallengeCard}>
           <strong>{challenge?.title}</strong>
           <img src={challenge?.cover} alt="" />
-          <p>{challenge?.description}</p>
-          <button>Codar</button>
+          <p>{challenge?.longDescription}</p>
+          <a href={challenge?.repository} target="_blank" rel="noreferrer">Codar</a>
         </div>
       </main>
     </>
