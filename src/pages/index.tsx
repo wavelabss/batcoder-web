@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 import { CallTheAction } from '../components/CallTheAction'
 import { CardCreaters } from '../components/CardCreaters'
 
@@ -14,7 +15,9 @@ export default function Home() {
       <CallTheAction>
         <h1>Desafios de programação para desenvolvedores evoluirem suas habilidades.</h1>
         <h2>Confira os desafios disponíveis na nossa plataforma.</h2>
-        <button>Bora lá!</button>
+        <Link href="/challenges">
+          <button>Bora lá!</button>
+        </Link>
         <img src="./images/programmer.svg" alt="Programador"/>
       </CallTheAction>
       <img src="./images/div-section.svg" alt=""/>
