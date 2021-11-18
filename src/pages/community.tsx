@@ -11,7 +11,7 @@ export default function Community() {
       <CallTheAction>
         <h1>Participe da nossa comunidade no discord. <br />É rápido e indolor.</h1>
         <h2>Todos os integrantes são muito simpáticos. Manda um salve no chat-geral.</h2>
-        <button>Acessar!</button>
+        <a href="https://discord.gg/AHbF8BK" target="_blank" rel="noreferrer">Acessar!</a>
         <img src="./images/community.svg" alt="Pessoas conversando digitalmente"/>
       </CallTheAction>
     </>

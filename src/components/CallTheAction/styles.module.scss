@@ -22,7 +22,7 @@
     margin: 2rem 0;
   }
 
-  button {
+  button, a {
     height: 3.5rem;
     padding: 0 4rem;
     border: none;
@@ -31,11 +31,21 @@
     color: #fff;
     font: 600 1.5rem/1em 'Roboto', sans-serif;
     margin-top: 3rem;
-
     transition: filter 0.2s;
 
     &:hover {
       filter: brightness(0.8);
+    }
+  }
+
+  a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      color: #fff;
     }
   }
 
