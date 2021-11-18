@@ -6,17 +6,17 @@ import { IChallenge } from '../../shared/interfaces/challenge'
 
 import styles from '../styles/DetailsChallenge.module.scss'
 
-export default function DetailsChallenge(id: number) {
+export default function DetailsChallenge() {
   const [challenge, setChallenge] = useState<IChallenge>()
 
   const router = useRouter()
-  const slug = router.query.slug
+  const id = router.query.id
 
   useEffect(() => {
-    api.get<IChallenge>(`challenges?slug=${slug}`).then(response => {
-      setChallenge(response.data[0])
+    api.get<IChallenge>(`challenges/${id}`).then(response => {
+      setChallenge(response.data)
     })
-  }, [slug])
+  }, [id])
   return (
     <>
       <Head>
