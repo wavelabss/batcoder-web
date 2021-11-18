@@ -29,7 +29,7 @@ export default function ListChallenges() {
           <img src={challenge.cover} alt=""/>
           <strong>{challenge.title}</strong>
           <p>{challenge.shortDescription}</p>
-            <Link href={`/challenges/${challenge.slug}`}>
+            <Link href={`/challenges/${challenge.id}`}>
               <button>Detalhes</button>
             </Link>
         </CardChallenges>
