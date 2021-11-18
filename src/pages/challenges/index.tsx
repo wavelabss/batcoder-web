@@ -24,12 +24,12 @@ export default function ListChallenges() {
       </Head>
       <main className={styles.ListChallengesContainer}>
         {
-          challenges.map(challenge => (
-        <CardChallenges marginBottom={32} key={challenge.id}>
-          <img src={challenge.cover} alt=""/>
-          <strong>{challenge.title}</strong>
-          <p>{challenge.shortDescription}</p>
-            <Link href={`/challenges/${challenge.id}`}>
+          challenges?.map(challenge => (
+        <CardChallenges marginBottom={32} key={challenge?.id}>
+          <img src={challenge?.cover} alt={challenge?.title}/>
+          <strong>{challenge?.title}</strong>
+          <p>{challenge?.shortDescription}</p>
+            <Link href={`/challenges/${challenge?.id}`}>
               <button>Detalhes</button>
             </Link>
         </CardChallenges>
