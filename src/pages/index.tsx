@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { CallTheAction } from '../components/CallTheAction'
 import { CardCreaters } from '../components/CardCreaters'
 
-import styles from './styles/Home.module.scss'
+import styles from './styles.module.scss'
 
 export default function Home() {
   return (

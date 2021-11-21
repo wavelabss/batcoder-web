@@ -1,5 +1,5 @@
 export interface IChallenge {
-  id: number,
+  id: string,
   slug: string,
   title: string,
   shortDescription: string,

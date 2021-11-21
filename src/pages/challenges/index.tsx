@@ -1,21 +1,17 @@
-import { useEffect, useState } from 'react'
+import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import Link from 'next/link'
 import { CardChallenges } from '../../components/CardChallenges'
 import { api } from '../../service/api'
 import { IChallenge } from '../../shared/interfaces/challenge'
 
-import styles from '../styles/ListChallenges.module.scss'
+import styles from './styles.module.scss'
 
-export default function ListChallenges() {
-  const [challenges, setChallenges] = useState<IChallenge[]>([])
+interface IListChallengesProps {
+  challenges: IChallenge[]
+}
 
-  useEffect(() => {
-    api.get<IChallenge[]>('challenges').then(response => {
-      setChallenges(response.data)
-    })
-  }, [])
-
+export default function ListChallenges({ challenges }: IListChallengesProps) {
   return (
     <>
       <Head>
@@ -38,4 +34,14 @@ export default function ListChallenges() {
       </main>
     </>
   )
+}
+
+export const getStaticProps: GetStaticProps<IListChallengesProps> = async () => {
+  const response = await api.get<IChallenge[]>('challenges')
+
+  return {
+    props: {
+      challenges: response.data
+    }
+  }
 }

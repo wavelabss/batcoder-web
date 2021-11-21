@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { CallTheAction } from '../components/CallTheAction'
+import { CallTheAction } from '../../components/CallTheAction'
 
 export default function Community() {
   return (
