@@ -15,10 +15,15 @@ export function Header() {
 
   function handleClick(): void {
     setClick(!click)
+    const body = document.querySelector('body')
+    click ? body.style.overflow = 'visible' : body.style.overflow = 'hidden'
   }
 
   async function handleNavigate(path: string): Promise<void> {
+    const body = document.querySelector('body')
+    body.style.overflow = 'visible'
     setClick(false)
+
     await router.push(path)
   }
 
