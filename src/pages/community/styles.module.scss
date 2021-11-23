@@ -1,0 +1,7 @@
+.CommunityContent {
+  height: calc(100vh - 230px);
+
+  @media (max-width: 1080px) {
+    height: auto;
+  }
+}
