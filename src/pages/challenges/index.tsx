@@ -19,18 +19,18 @@ export default function ListChallenges({ challenges }: IListChallengesProps) {
         <title>BATcoder | Desafios</title>
       </Head>
       <main className={styles.ListChallengesContainer}>
-        {
-          challenges?.map(challenge => (
-        <CardChallenges marginBottom={32} key={challenge?.id}>
-          <img src={challenge?.cover} alt={challenge?.title}/>
-          <strong>{challenge?.title}</strong>
-          <p>{challenge?.shortDescription}</p>
-            <Link href={`/challenges/${challenge?.id}`}>
-              <button>Detalhes</button>
-            </Link>
-        </CardChallenges>
-          ))
-        }
+        {challenges?.map(challenge => (
+          <div className={styles.CardChallenges} key={challenge?.id}>
+            <CardChallenges marginBottom={32}>
+              <img src={challenge?.cover} alt={challenge?.title}/>
+              <strong>{challenge?.title}</strong>
+              <p>{challenge?.shortDescription}</p>
+                <Link href={`/challenges/${challenge?.id}`}>
+                  <button>Detalhes</button>
+                </Link>
+            </CardChallenges>
+          </div>
+        ))}
       </main>
     </>
   )

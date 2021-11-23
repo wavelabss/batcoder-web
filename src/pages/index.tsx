@@ -38,22 +38,24 @@ export default function Home() {
               <a href="https://www.linkedin.com/in/ana-laura-pereira-mariano-060b0b189/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
             </div>
           </CardCreaters>
-          <CardCreaters>
-            <img src="./images/creaters/bruno.png" alt=""/>
-            <strong>Bruno Laviso</strong>
-            <p>
-              Desenvolvedor front-end.<br />
-              Entusiasta JavaScript, Typescript, React e React Native.<br />
-              Adora trocar a cor de um botão.<br />
-              Toca um violão quando tem tempo.<br />
-              Fã incontrolável de Los Hermanos.
-            </p>
-            <div>
-              <a href="https://github.com/brunolaviso" target="_blank" rel="noreferrer"><img src="./images/icons/github.svg" alt=""/></a>
-              <a href="https://www.instagram.com/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/instagram.svg" alt=""/></a>
-              <a href="https://www.linkedin.com/in/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
-            </div>
-          </CardCreaters>
+          <div className={styles.CardCreatersWrapper}>
+            <CardCreaters>
+              <img src="./images/creaters/bruno.png" alt=""/>
+              <strong>Bruno Laviso</strong>
+              <p>
+                Desenvolvedor front-end.<br />
+                Entusiasta JavaScript, Typescript, React e React Native.<br />
+                Adora trocar a cor de um botão.<br />
+                Toca um violão quando tem tempo.<br />
+                Fã incontrolável de Los Hermanos.
+              </p>
+              <div>
+                <a href="https://github.com/brunolaviso" target="_blank" rel="noreferrer"><img src="./images/icons/github.svg" alt=""/></a>
+                <a href="https://www.instagram.com/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/instagram.svg" alt=""/></a>
+                <a href="https://www.linkedin.com/in/brunolaviso/" target="_blank" rel="noreferrer"><img src="./images/icons/linkedin.svg" alt=""/></a>
+              </div>
+            </CardCreaters>
+          </div>
           <CardCreaters>
             <img src="./images/creaters/thiago.png" alt=""/>
             <strong>Thiago Moura</strong>

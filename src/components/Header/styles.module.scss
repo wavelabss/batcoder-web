@@ -1,9 +1,9 @@
-.headerContainer {
+.Container {
   height: 5rem;
   background: var(--gray-600)
 }
 
-.headerContent {
+.Content {
   max-width: 1120px;
   height: 5rem;
   margin: 0 auto;
@@ -17,7 +17,7 @@
     cursor: pointer;
   }
 
-  nav {
+  .NavWeb {
     margin-left: 5rem;
     height: 5rem;
 
@@ -54,6 +54,79 @@
         left: 0;
         background: var(--green-600)
       }
+    }
+
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .MenuMobileActive,
+  .MenuMobileDisabled {
+    display: none;
+
+    @media (max-width: 768px) {
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      max-width: 500px;
+      min-height: 100vh;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      opacity: 1;
+      background: var(--gray-900);
+      z-index: 9999;
+
+      transition: all 0.5s ease;
+    }
+
+    a {
+      cursor: pointer;
+      font-weight: 500;
+      opacity: 1;
+
+      font-size: 1.5rem;
+
+      transition: filter 0.3s;
+      width: 100%;
+      padding: 2rem 1rem;
+      margin: 0;
+
+      &:hover {
+        color: #fff;
+        opacity: 1;
+        background-color: var(--yellow);
+      }
+    }
+  }
+
+  .MenuMobileDisabled {
+    @media (max-width: 1080px) {
+      left: -100%;
+      opacity: 0;
+    }
+  }
+
+  .MenuMobileActive {
+    @media (max-width: 1080px) {
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  .MenuIcon {
+    display: none;
+
+    :hover {
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      display: flex;
+      font-size: 2rem;
     }
   }
 }

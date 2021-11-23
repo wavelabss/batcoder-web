@@ -28,5 +28,21 @@
         cursor: pointer;
       }
     }
+
+    @media (max-width: 768px) {
+      flex-direction: column;
+
+      .FooterLogo {
+        order: -1;
+      }
+    }
+
+    @media (max-width: 768px) {
+      padding: 4rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 250px;
   }
 }

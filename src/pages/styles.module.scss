@@ -12,13 +12,21 @@
     margin-bottom: 3rem;
   }
 
-  div {
+  >div {
     display: flex;
     align-items: center;
     justify-content: center;
 
-    main {
+    .CardCreatersWrapper {
       margin: 0 2rem;
+    }
+
+    @media (max-width: 1080px) {
+      flex-direction: column;
+
+      .CardCreatersWrapper {
+        margin: 2rem 0;
+      }
     }
   }
 }
