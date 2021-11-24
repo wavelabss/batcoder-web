@@ -15,7 +15,6 @@ export default class MyDocument extends Document {
 
         <meta name="description" content={description} />
         <meta name="image" content={pageImage} />
-        <meta name="robots" content="noindex,nofollow" />
 
         <meta httpEquiv="x-ua-compatible" content="IE=edge,chrome=1" />
         <meta name="MobileOptimized" content="320" />
